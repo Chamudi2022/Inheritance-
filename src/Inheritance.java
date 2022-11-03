@@ -1,10 +1,10 @@
- class Inheritance {
+ class Animal {
     public static void Cat(){
         System.out.println("can Run");
         System.out.println("can Jump");
     }
 }
-  class BabyBird extends Inheritance{
+  class BabyAnimal extends Animal{
      public static void BabyCat(){
              System.out.println("can't Climb");
          }
@@ -12,7 +12,7 @@
 
 class TestInheritance{
     public static void main(String[] args) {
-        BabyBird b = new BabyBird();
+        BabyAnimal b = new BabyAnimal();
         b.Cat();
         b.BabyCat();
 
